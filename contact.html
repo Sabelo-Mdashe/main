@@ -7,9 +7,37 @@
     <title>Contacts</title>
   </head>
   <body>
+    <nav>
+      <ul
+        style="
+          text-transform: uppercase;
+          list-style-type: none;
+          text-align: end;
+        "
+      >
+        <li><a href="./index.html">home</a></li>
+      </ul>
+    </nav>
     <h3>My Contact Details:</h3>
     <p>Contact Number: 081 360 3885</p>
     <p>Email Address: selbysabelomdashe@gmail.com</p>
     <p>Facebook: Selby Sabelo Mdashe</p>
+    <form action="submit">
+      <h4>Please fill in the form:</h4>
+      <label for="name">First Name:</label>
+      <input type="text" placeholder="eg. Selby" />
+      <br /><br />
+      <label for="email">Email Address:</label>
+      <input type="email" placeholder="eg. YourName@gmail.com" />
+      <br /><br />
+      <label>Contact Number:</label>
+      <input type="tel" maxlength="10" />
+      <br /><br />
+      <label>Which City would you like to visit?</label> <br /><br />
+      <input type="radio" name="city" id="" />London <br />
+      <input type="radio" name="city" id="" />Madrid <br />
+      <input type="radio" name="city" id="" />New York <br /><br />
+      <button type="submit">Submit Form</button>
+    </form>
   </body>
 </html>
