@@ -13,11 +13,8 @@
         <li><a href="./index.html">home</a></li>
       </ul>
     </nav>
-    <h3>My Contact Details:</h3>
-    <p>Contact Number: 081 360 3885</p>
-    <p>Email Address: selbysabelomdashe@gmail.com</p>
-    <p>Facebook: Selby Sabelo Mdashe</p>
-    <form action="submit">
+    <h1 class="booking">Booking Form</h1>
+    <!-- <form action="submit">
       <h4>Please fill in the form:</h4>
       <label for="name">First Name:</label>
       <input type="text" placeholder="eg. Selby" />
@@ -33,6 +30,24 @@
       <input type="radio" name="city" id="" />Madrid <br />
       <input type="radio" name="city" id="" />New York <br /><br />
       <button type="submit">Submit Form</button>
+    </form> -->
+    <form action="https://formspree.io/f/xrgjyerl" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" name="fullname" /> <br />
+
+      <label> Your email: </label>
+      <input type="email" name="email" /> <br />
+
+      <label for="contact">Contact Number:</label>
+      <input type="text" name="contact" id="contact" /> <br />
+
+      <label for="date">Date:</label>
+      <input type="date" name="date" /> <br />
+
+      <label for="time">Time</label>
+      <input type="time" name="time" /> <br />
+      <!-- your other form fields go here -->
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>

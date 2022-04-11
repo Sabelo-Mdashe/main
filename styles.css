@@ -22,3 +22,7 @@ img {
   background-color: aqua;
   font-family: "Courier New", Courier, monospace;
 }
+
+.booking {
+  text-align: left;
+}
